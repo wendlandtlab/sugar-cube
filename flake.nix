@@ -26,7 +26,7 @@
               [
                 python-pkgs.pandas
                 python-pkgs.numpy
-              ]
+              ])
             )
             
             ];
