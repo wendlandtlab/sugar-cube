@@ -18,7 +18,7 @@ The following julia packages are required to run the scripts in this directory:
 * *[Distributions.jl](https://github.com/JuliaStats/Distributions.jl)*
 * *[Optim.jl](https://github.com/JuliaNLSolvers/Optim.jl)*
 * *[Metaheuristics.jl](https://github.com/jmejia8/Metaheuristics.jl)*
-* *[Parameters.jl](https://github.com/mauro3/Parameters.jl)
+* *[Parameters.jl](https://github.com/mauro3/Parameters.jl)*
 
 These can be installed using the following command in the julia REPL:
 ```julia
