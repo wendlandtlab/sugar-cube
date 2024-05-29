@@ -1,4 +1,4 @@
-# Data and fitting code for studying emergent selectivity in complex stereoarrays
+# Velocity kinetic code
 
 ### Introduction
 
