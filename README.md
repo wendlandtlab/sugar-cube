@@ -38,10 +38,11 @@ The following python packages are required to run the scripts in this directory:
 * *[matplotlib](https://matplotlib.org/)*
 * *[jupyter](https://jupyter.org/)*
 * *[ipython](https://ipython.org/)*
+* *[lmfit](https://lmfit.github.io/lmfit-py/)*
 
 These can be installed using the following command in the terminal:
 ```bash
-pip install numpy pandas matplotlib jupyter ipython
+pip install numpy pandas matplotlib jupyter ipython lmfit
 ```
 
 Python notebooks can be run in the jupyter environment or a suitable editor that supports ipython (e.g. VSCode).
