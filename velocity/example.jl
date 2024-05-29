@@ -11,7 +11,7 @@ reactions = (
     Reaction(reactants=Dict(species_A => 1), products=Dict(species_B => 1), rate_constant=(0.05, 0), id="A_B"),
 )
 
-network = RxnNetwork(reactions, species)
+network = RxnNetwork(species, reactions)
 
 t_span = (0.0, 100.0)
 t_eval = Tuple(range(0, 100, length=101))
