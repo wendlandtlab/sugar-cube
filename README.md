@@ -60,7 +60,7 @@ The `timecourse_fitting` directory contains experimental kinetic data for alpha 
 
 ### Drawing kinetic networks
 
-The `network_figure` contains a convenient script for displaying sugar cube kinetic models by generating Chemdraw a .cdxml network from a csv of rate constants.
+The `network_figure` contains a convenient script for displaying sugar cube kinetic models by generating a Chemdraw .cdxml network from a csv of rate constants.
 
 ### DFT structures
 
