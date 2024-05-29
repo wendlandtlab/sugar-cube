@@ -9,9 +9,13 @@ This directory contains julia code for generating random rate constants and simu
 Asymptote data (end steady state) for the stochastic simulations. Each file contains data from 10_000 simulations, each row representing one simulation. Columns are steady state concentrations (M) for each species. 
 
 Files are named according to the parameters used:
-results_*correlation type*_*rate stdev*_*sel stdev*_*bias type*_*edge cor*.csv
+*correlation type*_*bias*_*edge cor*.csv
 
 The following correlation types were simulated: `basin`, `c3`,`parallel`, `twobasin-inv`, `twobasin-uc`, and `total`.
+
+Each simulation was run with either no bias or a selectivity bias equivalent to 0.5 kcal/mol in the direction of correlation (towards "allose").
+
+Each simulation was run with edge correlations of 0, 0.2, 0.4, 0.6, 0.8. A correlation of 0.8 was used for the data presented in Figure 5 of the manuscript.
 
 ### Transient data
 

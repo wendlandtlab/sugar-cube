@@ -35,7 +35,7 @@ end
 for (idx1, id) in enumerate(ids)
     for (idx2, edge_cor) in enumerate(edge_cors)
         for (idx3, bias) in enumerate(bias_types)
-            title = "results_$(id)_1.25_1.25_selectivity_$(bias)_$(edge_cor).csv"
+            title = "$(id)_$(bias)_$(edge_cor).csv"
             try
                 dfs[idx1, idx2, idx3] = CSV.read("asymptote-data/" * title, DataFrame)[!, sugars] ./ 0.2 # only sugars + molarity
             catch
