@@ -51,7 +51,7 @@ Alternatively, for advanced users, a flake.nix file is provided to create a nix 
 
 ### Velocity
 
-The `velocity` directory contains julia and python code for modeling and simulating timecourse data for chemical reaction networks by numeric integration. These scripts are used for both time course fitting and stochastic simulations. Both the julia and python scripts provide equivalent numerical results and are largely interchangable. Julia was used where parallelization and performance were important.
+The `velocity` directory contains julia and python code for modeling and simulating timecourse data for chemical reaction networks by numeric integration. These scripts are used for both time course fitting and stochastic simulations. Both the julia and python scripts provide equivalent numerical results and are largely interchangable. Julia was used where parallelization and performance were important. Simple example scripts are included for each language.
 
 ### Stochastic simulations
 
