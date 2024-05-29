@@ -13,6 +13,8 @@ Files are named according to the parameters used:
 
 The following correlation types were simulated: `basin`, `c3`,`parallel`, `twobasin-inv`, `twobasin-uc`, and `total`.
 
+![correlation types](correlationtypes.png)
+
 Each simulation was run with either no bias or a selectivity bias equivalent to 0.5 kcal/mol in the direction of correlation (towards "allose").
 
 Each simulation was run with edge correlations of 0, 0.2, 0.4, 0.6, 0.8. A correlation of 0.8 was used for the data presented in Figure 5 of the manuscript.
