@@ -26,6 +26,7 @@
                 "Distributions"
                 "Metaheuristics"
                 "Optim"
+                "Graphs"
               ]
             )
             (pkgs.python3.withPackages (python-pkgs:

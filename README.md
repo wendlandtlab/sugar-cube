@@ -19,10 +19,11 @@ The following julia packages are required to run the scripts in this directory:
 * *[Optim.jl](https://github.com/JuliaNLSolvers/Optim.jl)*
 * *[Metaheuristics.jl](https://github.com/jmejia8/Metaheuristics.jl)*
 * *[Parameters.jl](https://github.com/mauro3/Parameters.jl)*
+* *[Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl)*
 
 These can be installed using the following command in the julia REPL:
 ```julia
-import Pkg; Pkg.add(["Plots", "Catalyst", "DifferentialEquations", "DataFrames", "CSV", "Distributions", "Optim", "Metaheuristics", "Parameters"])
+import Pkg; Pkg.add(["Plots", "Catalyst", "DifferentialEquations", "DataFrames", "CSV", "Distributions", "Optim", "Metaheuristics", "Parameters", "Graphs"])
 ```
 
 Julia scripts can be run in the REPL or by executing the script in the terminal with the following command:
