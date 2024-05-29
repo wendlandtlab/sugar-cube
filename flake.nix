@@ -19,7 +19,7 @@
                 "Plots"
                 "Catalyst"
                 "DifferentialEquations"
-                "Latexify"
+                "Parameters"
                 "CSV"
                 "DataFrames"
                 "LinearAlgebra"

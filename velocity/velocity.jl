@@ -72,13 +72,32 @@ struct RxnNetwork
     """
     reactions::Tuple{AbstractReaction,Vararg{AbstractReaction}}
     species::Tuple{Species,Vararg{Species}}
+
+    function RxnNetwork(reactions::Tuple{AbstractReaction,Vararg{AbstractReaction}})
+        species = get_species(reactions) 
+        new(reactions, species)
+    end
+
+    function RxnNetwork(reactions::Tuple{AbstractReaction,Vararg{AbstractReaction}}, species::Tuple{Species,Vararg{Species}})
+        new(reactions, species)
+    end
+
+    function RxnNetwork(species::Tuple{Species,Vararg{Species}}, reactions::Tuple{AbstractReaction,Vararg{AbstractReaction}})
+        new(reactions, species)
+    end
+
+    function RxnNetwork(reaction::AbstractReaction)
+        species = get_species((reaction,))
+        new((reaction,), species)
+    end
+
 end
 
-function get_species(reactions::Vector{AbstractReaction})
+function get_species(reactions::Tuple{AbstractReaction})
     """Get the unique species involved in a list of reactions.
 
     Args:
-        reactions (Vector{AbstractReaction}): A list of reactions.
+        reactions (Tuple{AbstractReaction}): A list of reactions.
 
     Returns:
         unique_species (Tuple{Species}): A tuple of unique species.
@@ -103,7 +122,7 @@ function get_species(reactions::Vector{AbstractReaction})
     species = sort(unique(species))
 
     # cast to tuple and return
-    return (unique_species...,)  # Convert the array to a tuple
+    return (species...,)  # Convert the array to a tuple
 end
 
 function get_rate_vector(concentrations::Vector{Float64}, network::RxnNetwork)
