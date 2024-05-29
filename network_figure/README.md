@@ -4,4 +4,6 @@
 
 This script can be used to generate figures such as the following:
 
-(Insert figure here)
+![Alpha Network](alpha.png)
+
+![Beta Network](beta.png)
