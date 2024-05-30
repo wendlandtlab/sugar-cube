@@ -6,7 +6,7 @@ This directory contains DFT optimized structures used to investigate the mechani
 
 ### Benchmarking
 
-Conformers of various structure types were used to benchmark DFAs against CCSD(T) energies. Structures were generated using B3LYP def2-tzvp(-f) cpcm(dmso). The structures are sorted in each folder by CCSD(T) energy. The title in each *xyz* file contains the CCSD(T) energy.
+Conformers of various structure types were used to benchmark DFAs against DLPNO-CCSD(T1) aug-cc-pvtz cpcm(dmso) energies. Structures were generated using B3LYP def2-tzvp(-f) cpcm(dmso). The structures are sorted in each folder by DLPNO-CCSD(T1) energy. The title in each *xyz* file contains the DLPNO-CCSD(T1) energy.
 
 `glu-acetate` conformers of methlyglucoside coordinated to an acetate molecule
 
