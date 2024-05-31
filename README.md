@@ -1,5 +1,7 @@
 # Data and fitting code for studying emergent selectivity in complex stereoarrays
 
+[![DOI](https://zenodo.org/badge/807292002.svg)](https://zenodo.org/doi/10.5281/zenodo.11398531)
+
 ### Introduction
 
 This repository contains data and analysis scripts related to our recent study titled *Emergent selectivity in complex stereoarrays.* 
