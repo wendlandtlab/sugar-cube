@@ -38,7 +38,7 @@ else
 end
 ```
 
-The simulation results are given in the asymptote-data folder. Each file contains data from 10_000 simulations, each row representing one simulation. Columns are steady state concentrations (M) for each species. Files are named according to the parameters used: (correlation type)_(bias)_(edge correlation).csv.
+The simulation results are given in the asymptote-data folder. Each file contains data from 10_000 simulations, each row representing one simulation. Columns are steady state concentrations (M) for each species. Files are named according to the parameters used: (correlation type)\_(bias)\_(edge correlation).csv.
 
 The following correlation types were simulated: `basin`, `c3`,`parallel`, `twobasin-inv`, `twobasin-uc`, and `total`. Graphically these correlations are represented by the following networks in which color is used to indicate edges with selectivities that are correlated together. Although arrow direction is indicated, the correlations themselves have no directionality associated, instead that selectivities between these connections are similar. Each simulation was run with either no bias or a selectivity bias equivalent to 0.5 kcal/mol in the direction of the arrows. Each simulation was run with edge correlations of 0, 0.2, 0.4, 0.6, 0.8. A correlation of 0.8 was used for the data presented in Figure 5 of the manuscript.
 
