@@ -1,10 +1,10 @@
-# Data and fitting code for studying emergent selectivity in complex stereoarrays
+# Data and fitting code for studying a sugar cube kinetic model
 
 [![DOI](https://zenodo.org/badge/807292002.svg)](https://zenodo.org/doi/10.5281/zenodo.11398531)
 
 ### Introduction
 
-This repository contains data and analysis scripts related to our recent study titled *Emergent selectivity in complex stereoarrays.* 
+This repository contains data and analysis scripts related to our recent study titled *The sugar cube: network control and emergence in stereoediting reactions.* 
 
 | Directory | Description | Manuscript/SI Section |
 | --- | --- | --- |
